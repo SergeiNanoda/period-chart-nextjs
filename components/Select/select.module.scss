@@ -1,0 +1,65 @@
+.container {
+  align-self: flex-end;
+  margin-bottom: 28px;
+}
+
+.control {
+  min-width: 380px;
+  width: fit-content;
+  height: 48px;
+  border-radius: 28px !important  ;
+  border: 2px solid #000aff;
+  border-color: #000aff !important;
+  background: #fff;
+
+  color: #000 !important;
+  font-family: Manrope !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+}
+
+.singleValue:hover {
+  cursor: pointer;
+  color: #000aff !important;
+}
+
+.indicatorSeparator {
+  display: none;
+}
+
+.dropdownIndicator {
+  padding: 12px !important;
+}
+
+.menu {
+  min-width: 380px !important;
+  width: fit-content !important;
+  border-radius: 28px !important;
+  border: 2px solid #000aff;
+  background: #fff;
+
+  display: block !important;
+  margin: 0 !important;
+}
+
+.option {
+  cursor: pointer;
+  padding: 9px 20px;
+
+  color: #000 !important;
+  font-family: Manrope !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+  background: rgba(254, 254, 254, 0) !important;
+
+  transition: color 200ms ease-in;
+
+  &:hover {
+    cursor: pointer;
+    color: #000aff !important;
+  }
+}

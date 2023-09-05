@@ -1,0 +1,43 @@
+.chart_wrapper {
+  width: 995px;
+  height: 400px;
+  border-radius: 27px;
+  background: rgba(255, 0, 245, 0.05);
+  padding: 40px;
+}
+
+.recharts-text {
+  color: #000;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.recharts-single-bar {
+  &:hover {
+    filter: drop-shadow(0px -6px 6px rgba(0, 10, 255, 0.15));
+  }
+}
+
+.rechart-custom-tooltip {
+  display: block;
+  padding: 0px 8px;
+  border-radius: 6px;
+  background: #65FF8E;
+  height: auto;
+  visibility: hidden;
+
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  &--visible {
+    visibility: visible;
+  }
+}
